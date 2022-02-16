@@ -24,9 +24,9 @@ def tile(img, dir_out, d, IsWool):
         carpet_properties = dir_out + "/" + file[:-4] + "_carpet.properties"
         carpet_path = os.path.join(carpet_properties)
         g = open(carpet_path, "w+")
-        g.write()
-        g.write("matchBlocks=" + block_id + "\n")
         g.write("method=ctm\n")
+        g.write("matchBlocks=" + carpet_block_id + "\n")
+        g.write("faces=top\n")
         g.write("tiles=0-46\n")
 
 for file in os.listdir('blocks/'):
