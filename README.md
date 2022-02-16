@@ -1,4 +1,4 @@
-# woolgen
+# Woolgen
 Générer des textures connectées en 2 clics
 
 ## Prérequis
